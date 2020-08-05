@@ -18,6 +18,8 @@ jobs:
 
       # unit tests
       - run: npm i
+      - run: npm start &
+      - run: npx wait-on tcp:3000
       - run: npm run upload-add
       - run: npm run upload-hello
       - run: npm run invoke-add
