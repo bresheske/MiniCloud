@@ -43,3 +43,7 @@ Connection: keep-alive
 
 4
 ```
+
+## Pull Requests
+
+Github actions has been setup for CI. 
