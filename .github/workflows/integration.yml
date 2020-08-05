@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: integration
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       # set up node & pull down the repository
       - uses: actions/setup-node@v1

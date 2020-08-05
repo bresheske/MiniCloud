@@ -46,4 +46,4 @@ Connection: keep-alive
 
 ## Pull Requests
 
-Github actions has been setup for CI. 
+Github actions has been setup for CI. It currently runs on windows.
